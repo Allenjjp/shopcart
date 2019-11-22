@@ -1,0 +1,219 @@
+page {
+  background-color: #F9F7F7;
+}
+
+.edit-btn {
+  color: #333333;
+  font-size: 28rpx;
+  width: 94%;
+  margin: 20rpx auto;
+  text-align: right;
+}
+
+.shopcart {
+  width: 100%;
+  overflow: hidden;
+  box-sizing: border-box;
+}
+
+.shop-head {
+  width: 94%;
+  margin: 20rpx auto;
+  background-color: #fff;
+  border-radius: 10rpx;
+}
+
+.shop-name {
+  height: 64rpx;
+  display: flex;
+  align-items: center;
+  margin: 10rpx 0 0 20rpx;
+}
+
+.shop-name text {
+  font-size: 24rpx;
+  color: #333333;
+  margin-left: 23rpx;
+}
+
+.shop-content {
+  display: flex;
+  align-items: center;
+  margin: 0 40rpx;
+  padding-bottom: 20rpx;
+}
+
+.shop-content image {
+  width: 172rpx;
+  height: 172rpx;
+  margin-left: 23rpx;
+}
+
+.shop-detail {
+  display: flex;
+  flex-direction: column;
+  margin-left: 32rpx;
+}
+
+.shop-detail .desc {
+  font-size: 24rpx;
+  color: #333333;
+  margin-bottom: 18rpx;
+}
+
+.shop-detail .brand {
+  font-size: 24rpx;
+  color: #999999;
+  margin-bottom: 28rx;
+}
+
+.price-and-num {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 28rpx;
+}
+
+.price-and-num .price {
+  font-size: 32rpx;
+  color: #F7323A;
+}
+
+.price-and-num .num {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  height: 40rpx;
+  line-height: 40rpx;
+  border: 1px solid #E5E5E5;
+}
+
+.price-and-num .num .decrement, .price-and-num .num .increment {
+  width: 40rpx;
+  text-align: center;
+  color: #999999; 
+  font-size: 36rpx;
+  background-color: #fff;
+}
+
+.price-and-num .num .decrement {
+  border-top-left-radius: 4rpx;
+  border-bottom-left-radius: 4rpx;
+  border-right: 1px solid #E5E5E5;
+}
+
+.price-and-num .num .increment {
+  border-top-right-radius: 4rpx;
+  border-bottom-right-radius: 4rpx;
+  border-left: 1px solid #E5E5E5;
+}
+
+.price-and-num .num input {
+  width: 68rpx;
+  height: 40rpx;
+  line-height: 40rpx;
+  text-align: center;
+  font-size: 22rpx;
+  color: #666666;
+}
+
+.delete-btn {
+  width: 32rpx;
+  height: 32rpx;
+}
+
+.delete-btn image {
+  width: 100%;
+  height: 100%;
+}
+
+.bottom-bar {
+  width: 100%;
+  height: 86rpx;
+  background-color: #fff;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+}
+
+.all-selected {
+  flex: 1;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.check-content {
+  display: flex;
+  margin-left: 44rpx;
+}
+
+.check-content text {
+  font-size: 24rpx;
+  color: #999999;
+  margin-left: 16rpx;
+  margin-top: 7rpx;
+}
+
+.total-price {
+  display: flex;
+  flex-direction: column;
+  margin-right: 16rpx;
+}
+
+.count text:nth-child(1) {
+  font-size: 28rpx;
+  color: #333333;
+  font-weight: bold;
+}
+
+.count text:nth-child(2) {
+  color: #F7323A;
+  font-size: 28rpx;
+  font-weight: bold;
+}
+
+.fare {
+  font-size: 22rpx;
+  color: #999999;
+  text-align: right;
+}
+
+.calculate {
+  width: 194rpx;
+  background-color: #F7323A;
+  color: #fff;
+  font-size: 32rpx;
+  text-align: center;
+  line-height: 86rpx;
+}
+
+.empty-goods {
+  width: 408rpx;
+  margin: 134rpx auto 8rpx auto;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+}
+.empty-goods image {
+  width: 186rpx;
+  height: 186rpx;
+}
+.empty-goods text {
+  font-size: 24rpx;
+  color: #999999;
+}
+
+.empty-goods view {
+  width: 256rpx;
+  height: 61rpx;
+  line-height: 61rpx;
+  text-align: center;
+  font-size: 28rpx;
+  color: #232321;
+  border-radius: 30rpx;
+  border: 1px solid #232321;
+  margin: 18rpx auto;   
+}
